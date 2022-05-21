@@ -1,0 +1,6 @@
+subjectAltName = @alt_names
+extendedKeyUsage = serverAuth
+
+[alt_names]
+IP.1 = 35.158.203.11
+IP.2 = 172.26.2.171

@@ -1,0 +1,19 @@
+[ req ]
+distinguished_name  = req_distinguished_name
+x509_extensions     = root_ca
+
+[ req_distinguished_name ]
+countryName             = ru 
+countryName_min         = 2
+countryName_max         = 2
+stateOrProvinceName     = Moscow 
+localityName            = Moscow 
+0.organizationName      = Stepbook 
+organizationalUnitName  = Stepbook 
+commonName              = Stepbook 
+commonName_max          = 64
+emailAddress            = dadakhonabdulloev@gmail.com
+emailAddress_max        = 64
+
+[ root_ca ]
+basicConstraints            = critical, CA:true
